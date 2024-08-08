@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Megaten 20XX";
+    src: url(resources\fonts\Megaten 20XX.ttf);
+}
+
+body h2, input, button, a:link, .cliente-nome {
+    font-family: "Megaten 20XX";
+}
+
+.container {
+    background-color: beige;
+    border: 5px solid gray;
+    display: inline-block;
+}
+
+.container input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.container button {
+    margin-left: 10px;
+}
+
+.container h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container input, button, a:link, .cliente-nome {
+    font-size: 8px;
+}
+
+.encaminhamento {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 560px;
+    height: 160px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 162px;
+    height: 20px;
+}
